@@ -15,7 +15,7 @@ class EmployeeController extends Controller
     public function index()
     {
         $emps = Employee::all();
-        return view('pages.empIndex',compact('emps'));
+        return view('pages.index',compact('emps'));
     }
 
     /**
